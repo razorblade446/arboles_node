@@ -1,0 +1,35 @@
+{
+  "name": "simularbol",
+  "version": "0.0.2",
+  "description": "Simulación de Árboles para IA",
+  "keywords": [
+    "arboles",
+    "simulación"
+  ],
+  "main": "./webapp/html/index.html",
+  "window": {
+    "toolbar" : false,
+    "frame"   : false,
+    "width": 800,
+    "height": 600,
+    "resizable": false
+  },
+  "author": {
+    "name": "Frederic Yesid Peña Sánchez",
+    "mail": "fypenas@libertadores.edu.co",
+    "url": "http://www.razorblade446.net"
+  },
+  "contributors": [
+    {
+      "name": "Alfonso Chavez Baquero ",
+      "mail": "achavezb@libertadores.edu.co>"
+    }
+  ],
+  "scripts": {
+    "start": "nodewebkit"
+  },
+  "dependencies": {
+    "nodewebkit": "^0.11.6",
+    "bootstrap": "^3.3.2"
+  }
+}
